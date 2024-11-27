@@ -380,7 +380,7 @@ section h3.section-subheading {
     -webkit-transition: all ease .5s;
     -moz-transition: all ease .5s;
     transition: all ease .5s;
-    background: rgba(254,209,54,.9); /* Fallback when no plugin support */
+    background: rgba(132, 165, 236, 0.9); /* Fallback when no plugin support */
     background: rgba({{ site.data.template.color.primary | hex_to_rgb | join: ',' }}, .9);
 }
 
@@ -760,7 +760,7 @@ ul.social-buttons li a {
     line-height: 40px;
     outline: 0;
     color: #fff;
-    background-color: #222;
+    background-color: #{{ site.data.template.color.secondary }};
     -webkit-transition: all .3s;
     -moz-transition: all .3s;
     transition: all .3s;
@@ -870,4 +870,18 @@ img::-moz-selection {
 
 body {
     webkit-tap-highlight-color: #{{ site.data.template.color.primary }};
+}
+
+.profile-picture {
+    object-fit: cover;
+    width: 80%;
+    height: 80%;
+    border-radius: 5%;
+    filter: blur(1px);
+}
+
+@media (max-width: 768px) {
+    .profile-picture {
+        filter: blur(0.5px);
+    }
 }
