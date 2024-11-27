@@ -1,5 +1,5 @@
-url: "amanitta.github.io"
-baseurl: /agency-jekyll-theme/
+url: "https://amanitta.github.io"
+baseurl: "/agency-jekyll-theme"
 
 # for local testing: comment the lines above
 # url: ""
