@@ -19,7 +19,7 @@ body {
 }
 
 p {
-    font-size: 14px;
+    font-size: 16px;
     line-height: 1.75;
 }
 
@@ -177,7 +177,9 @@ fieldset[disabled] .btn-xl.active {
 
 .navbar-default .navbar-brand {
     font-family: "Kaushan Script","Helvetica Neue",Helvetica,Arial,cursive;
-    color: #{{ site.data.template.color.primary }};
+    color: #f1f1f1;
+    /* color: #{{ site.data.template.color.primary }}; */
+    text-shadow: 2px 2px 4px #000;
 }
 
 .navbar-default .navbar-brand:hover,
@@ -210,6 +212,7 @@ fieldset[disabled] .btn-xl.active {
     font-family: {{ site.data.template.font.primary }};
     font-weight: 400;
     letter-spacing: 1px;
+    text-shadow: 2px 2px 4px #000;
     color: #fff;
     -webkit-transition: all ease .35s;
     -moz-transition: all ease .35s;
@@ -253,6 +256,7 @@ fieldset[disabled] .btn-xl.active {
 
     .navbar-default .navbar-nav>.active>a {
         border-radius: 3px;
+
     }
 
     .navbar-default.navbar-shrink {
@@ -286,6 +290,7 @@ header .intro-text {
 header .intro-text .intro-lead-in {
     margin-bottom: 25px;
     font-family: {{ site.data.template.font.secondary }};
+    text-shadow: 2px 2px 4px #000;
     font-size: 22px;
     font-style: italic;
     line-height: 22px;
@@ -295,6 +300,7 @@ header .intro-text .intro-heading {
     margin-bottom: 25px;
     text-transform: uppercase;
     font-family: {{ site.data.template.font.primary }};
+    text-shadow: 2px 2px 4px #000;
     font-size: 50px;
     font-weight: 700;
     line-height: 50px;
@@ -302,8 +308,8 @@ header .intro-text .intro-heading {
 
 @media(min-width:768px) {
     header .intro-text {
-        padding-top: 300px;
-        padding-bottom: 200px;
+        padding-top: 100px;
+        padding-bottom: 50px;
     }
 
     header .intro-text .intro-lead-in {
@@ -345,7 +351,7 @@ section h3.section-subheading {
 
 @media(min-width:768px) {
     section {
-        padding: 150px 0;
+        padding: 100px 0;
     }
 }
 
@@ -498,7 +504,7 @@ section h3.section-subheading {
     border-radius: 100%;
     text-align: center;
     color: #fff;
-    background-color: #{{ site.data.template.color.primary }};
+    background-color: #f7f7f7;
 }
 
 .timeline>li .timeline-image h4 {
@@ -658,7 +664,7 @@ aside.clients img {
 
 section#contact {
     background-color: #222;
-    background-image: url('{{ site.baseurl }}/img/map-image.png');
+    background-image: url('{{ site.baseurl }}/img/contact-bg-image.jpg');
     background-position: center;
     background-repeat: no-repeat;
 }
@@ -681,7 +687,7 @@ section#contact .form-group input.form-control {
 }
 
 section#contact .form-group textarea.form-control {
-    height: 236px;
+    height: 156px;
 }
 
 section#contact .form-control:focus {
