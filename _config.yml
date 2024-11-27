@@ -1,12 +1,15 @@
 url: "amanitta.github.io"
-# baseurl: ""
 baseurl: /agency-jekyll-theme/
+
+# for local testing: comment the lines above
+# url: ""
+# baseurl: ""
 
 # Site settings
 title: Beatrice Fares
 # email: beatrice.fares@unibocconi.it
 email: manitta.andrea@gmail.com
-description: "Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description."
+description: "Welcome to my personal page."
 
 
 # # Team names, titles and social links
