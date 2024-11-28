@@ -16,8 +16,8 @@
 # url    : "" # the base hostname & protocol for your site, e.g. http://example.com
 # baseurl: "" # the subpath of your site, e.g. /blog
 
-url    : "amanitta.github.io" # the base hostname & protocol for your site, e.g. http://example.com
-baseurl: "/personal-page/" # the subpath of your site, e.g. /blog
+url    : "https://amanitta.github.io" # the base hostname & protocol for your site, e.g. http://example.com
+baseurl: "/personal-page" # the subpath of your site, e.g. /blog
 
 title      : Beatrice Fares
 email      : manitta.andrea@gmail.com #this is also the email contact forms will go to
