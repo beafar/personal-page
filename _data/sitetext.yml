@@ -11,152 +11,81 @@
 # -----------------
 en: &DEFAULT_EN
   header:
-    title: Welcome to our Studio!
-    text: It's Nice To Meet You
-    button: Tell Me More
-    buttonlink: "#services"
+    title: 28 November 2024
+    text: Happy Birthday Bea
+    icon: fas fa-birthday-cake
 
-  services:
-    title: "Services"
-    text: "Lorem ipsum"
-    section: services
-    list:
-      - title: "E-Commerce"
-        desc: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit."
-        icon: fas fa-shopping-cart #find more at https://fontawesome.com/icons
-      - title: "Responsive Design"
-        desc: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit."
-        icon: fas fa-laptop
-      - title: "[Markdown](https://en.wikipedia.org/wiki/Markdown)"
-        desc: "Your description here, full **Markdown** support"
-        icon: fab fa-markdown
+  about:
+    title: "About"
+    text: "A shortest introduction to myself."
+    image: assets/img/profile-picture.jpg
+    desc: "Fashionista, Lazio supporter, Greek letter student, pancake home-cooker, occasionally doing law things, and much more..."
+    section: about
 
   portfolio:
-    title: "Portfolio"
-    text: "Lorem ipsum dolor sit amet consectetur."
+    title: "Research"
+    text: "Some of the things I studied, worked on, and would like to do in the future."
     section: portfolio
     closebutton: "Close Project"
 
   timeline:
-    title: "Timeline"
-    text: "Lorem ipsum timeline"
+    title: "Career"
+    text: "A few highlights from recent years, starting from graduation."
     section: timeline
     # left is the default
     #start_align: "left"
     events:
-      - title: "Our Humble Beginnings"
-        year: "2009-2011"
-        desc: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!"
-        image: assets/img/timeline/1.jpg
+      - title: "LM Law Graduation"
+        year: "December 2020"
+        desc: "When I was still young and full of hopes..."
+        image: assets/img/career/1.jpg
         alt:
-      - title: "An Agency is Born"
-        year: "March 2011"
-        desc: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!"
-        image: assets/img/timeline/2.jpg
+      - title: "Trainee at the Italian Appeal Court"
+        year: "2021-2022"
+        desc: "This time was awful... but i still have to mention it to make the timeline longer"
+        image: assets/img/career/2.jpg
         alt:
-      - title: "Jekyll Theme is created"
-        year: "2019"
-        desc: "Ravi Riley converted Agency, a Bootstrap-based theme, into a Jekyll theme. The Jekyll theme can be installed as a Ruby gem, or remotely. For more information, visit the documentation."
-        image: assets/img/timeline/3.jpg
+      - title: "LLM at King's College London"
+        year: "September 2022"
+        desc: "Could speak for hours about how cool life in London was 🔋🐀
+          If you are looking for some tips just scroll down to the contact section."
+        image: assets/img/career/3.jpg
         alt: image alt text
-      - title: "Title"
-        year: "2009-2011"
-        desc: "Your description here, **Markdown** is fully supported."
-        image: assets/img/timeline/4.jpg
+      - title: "Intern at the Bank of Italy"
+        year: "September 2023"
+        desc: "The reason why I have a webpage so cool 😎"
+        image: assets/img/career/4.jpg
+        alt:
+      - title: "PhD at Bocconi University"
+        year: "October 2024"
+        desc: "They do not know how to dress, but they got cash 💵"
+        image: assets/img/career/5.jpg
         alt:
         # you can enforce the alignment
-        align: right
-    end: "Be Part <br> of Our <br> Story!"
-
-  about:
-    title: "About Us"
-    text: "our story"
-    body: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut eaque, laboriosam veritatis, quos non quis ad perspiciatis, totam corporis ea, alias ut unde. **Markdown** supported."
-    section: about
-
-  clients:
-    section: clients
-    max-height: 100px
-    horizontal-scrolling: "" #"yes/no"
-    list:
-      - title: "envato"
-        url: https://github.com/raviriley/agency-jekyll-theme
-        logo: assets/img/clients/envato.jpg
-      - title: "designmodo"
-        url: https://github.com/raviriley/agency-jekyll-theme
-        logo: assets/img/clients/designmodo.jpg
-      - title: "themeforest"
-        url: https://github.com/raviriley/agency-jekyll-theme
-        logo: assets/img/clients/themeforest.jpg
-      - title: "Creative Market"
-        url: https://github.com/raviriley/agency-jekyll-theme
-        logo: assets/img/clients/creative-market.jpg
-
-  team:
-    title: "OUR AMAZING TEAM"
-    text: "Lorem ipsum dolor sit amet consectetur."
-    subtext: Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut eaque, laboriosam veritatis, quos non quis ad perspiciatis, totam corporis ea, alias ut unde. **Markdown** supported.
-    section: team
-    people:
-      - name: "Kay Garland"
-        role: "Lead Designer"
-        image: assets/img/team/500x500.jpg
-        social:
-          - url: https://twitter.com
-            icon: fab fa-twitter
-          - url: https://facebook.com
-            icon: fab fa-facebook-f
-          - url: https://linkedin.com
-            icon: fab fa-linkedin-in
-      - name: "Larry Parker"
-        role: "Lead Marketer"
-        image: assets/img/team/2.jpg
-        social:
-          - url: https://twitter.com
-            icon: fab fa-twitter
-          - url: https://facebook.com
-            icon: fab fa-facebook-f
-          - url: https://linkedin.com
-            icon: fab fa-linkedin-in
-      - name: "Diana Perterson"
-        role: "Lead Developer"
-        image: assets/img/team/500x500.jpg
-        social:
-          - url: https://twitter.com
-            icon: fab fa-twitter
-          - url: https://facebook.com
-            icon: fab fa-facebook-f
-          - url: https://linkedin.com
-            icon: fab fa-linkedin-in
+        # align: right
+    end: 
+      icon: fas fa-download
+      url: "https://drive.google.com/uc?export=download&id=1GIcRs-GGGJkEy2bWKQtAH-tTfj-_9t_W"
+      text: "CV"
 
   contact:
-    title: "Contact Us"
-    text: "Lorem ipsum or call 123456789"
+    title: "Contact Me"
+    text: "Send an email or connect on LinkedIn!"
     section: contact
     name: "Name*"
     name-validation: "Please enter your name."
     email: "Email*"
     email-validation: "Please enter your email address."
-    phone: "Phone Number"
-    phone-validation: "Please enter your phone number."
     message: "Message*"
     message-validation: "Please enter a message."
     subject: "Contact Form Submission"
     submit: "Send Message"
 
   footer:
-    legal: "Privacy Policy"
     social:
-      - url: https://twitter.com
-        icon: "fab fa-twitter"
-      - url: https://facebook.com
-        icon: "fab fa-facebook-f"
-      - url: https://linkedin.com
+      - url: https://www.linkedin.com/in/beatrice-fares
         icon: "fab fa-linkedin-in"
-      - url: https://github.com/raviriley/agency-jekyll-theme
-        icon: "fab fa-github"
-      - url: https://instagram.com
-        icon: "fab fa-instagram"
+
 en-US:
   <<: *DEFAULT_EN
 en-CA:

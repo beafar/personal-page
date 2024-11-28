@@ -1,0 +1,19 @@
+// Styling for the about section
+.service-heading {
+  margin: 15px 0;
+  text-transform: none;
+}
+
+.profile-picture {
+  object-fit: cover;
+  width: 100%;
+  height: 100%;
+  border-radius: 5%;
+  filter: blur(1px);
+}
+
+@media (max-width: 768px) {
+  .profile-picture {
+      filter: blur(0.5px);
+  }
+}
