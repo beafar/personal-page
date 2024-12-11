@@ -11,20 +11,28 @@
 # -----------------
 en: &DEFAULT_EN
   header:
-    title: 28 November 2024
-    text: Happy Birthday Bea
-    icon: fas fa-birthday-cake
+    title:
+    text:
+    icon:
 
   about:
     title: "About"
     text: "A shortest introduction to myself."
     image: assets/img/profile-picture.jpg
-    desc: "Fashionista, Lazio supporter, Greek letter student, pancake home-cooker, occasionally doing law things, and much more..."
+    desc: "Hi everyone! I am Beatrice and I am currently a first-year
+      PhD student at Bocconi University in Milan. Previously, I had the privilege to attend King’s College London
+      where I completed my LL.M. in Law and Finance. During my undergraduate studies at La Sapienza University of Rome,
+      I joined the prestigious Columbia Law School in New York City to complete my research on the impact of big data on
+      digital markets. Through my experiences abroad I developed a strong inclination and interest in legal and economic
+      issues with a preference for innovative topics regarding new technologies. My research area concerns banks and financial
+      institutions, market regulation and systemic risks.  More specifically, my current project is about the legal implications
+      of the crypto-assets on the financial markets. 
+      Passionate about financial markets, banking systems, and European regulatory policy."
     section: about
 
   portfolio:
     title: "Research"
-    text: "Some of the things I studied, worked on, and would like to do in the future."
+    text: "Here you can find my past research and topics of interest."
     section: portfolio
     closebutton: "Close Project"
 
@@ -35,30 +43,33 @@ en: &DEFAULT_EN
     # left is the default
     #start_align: "left"
     events:
-      - title: "LM Law Graduation"
+      - title: "LLB Graduation, La Sapienza"
         year: "December 2020"
-        desc: "When I was still young and full of hopes..."
+        desc: "Five-year undergraduate on the European and Italian legal system.<br>
+          Field of interest: Civil, Corporate and Antitrust Law<br>  
+          Previously, Erasmus student at Vienna Univerisity."
         image: assets/img/career/1.jpg
         alt:
       - title: "Trainee at the Italian Appeal Court"
         year: "2021-2022"
-        desc: "This time was awful... but i still have to mention it to make the timeline longer"
+        desc: "Judicial clerking and legal research on financial crimes."
         image: assets/img/career/2.jpg
         alt:
-      - title: "LLM at King's College London"
-        year: "September 2022"
-        desc: "Could speak for hours about how cool life in London was 🔋🐀
-          If you are looking for some tips just scroll down to the contact section."
+      - title: "LLM Graduation, King's College London"
+        year: "September 2023"
+        desc: "Law and Finance Pathway.<br>
+          Centre of European Law (KCL)."
         image: assets/img/career/3.jpg
         alt: image alt text
       - title: "Intern at the Bank of Italy"
         year: "September 2023"
-        desc: "The reason why I have a webpage so cool 😎"
+        desc: "Market and Payment Systems Oversight Directorate.<br>
+          Legal and economic research on crypto-assets: impact on the financial markets and payment systems."
         image: assets/img/career/4.jpg
         alt:
       - title: "PhD at Bocconi University"
         year: "October 2024"
-        desc: "They do not know how to dress, but they got cash 💵"
+        desc: "Curriculum in Business Law."
         image: assets/img/career/5.jpg
         alt:
         # you can enforce the alignment
